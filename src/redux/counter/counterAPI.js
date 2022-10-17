@@ -5,4 +5,4 @@ const fetchCount = (amount = 1) => {
   );
 }
 
-export default fetchCount;
+export { fetchCount };

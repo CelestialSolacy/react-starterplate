@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Link, NavLink } from 'react-router-dom';
 import '../css/nav.css'
 
@@ -24,13 +24,13 @@ function Nav({ title, routes }) {
   );
 }
 
-Nav.propTypes = {
-  title: PropTypes.string.isRequired,
-  routes: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    path: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-  })).isRequired,
-};
+// Nav.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   routes: PropTypes.arrayOf(PropTypes.shape({
+//     id: PropTypes.number.isRequired,
+//     path: PropTypes.string.isRequired,
+//     name: PropTypes.string.isRequired,
+//   })).isRequired,
+// };
 
 export default Nav;
