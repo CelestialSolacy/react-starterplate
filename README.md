@@ -21,6 +21,33 @@ npm i react-router-dom
 
 5. Copy the contents of the `src` and `public` folders of this repo into your new one.
 
+### Auto set with git bash:
+
+> Note! Change `REPO_NAME` of the first command line to the name of your Github repository
+
+```
+REPO_NAME=repo_name
+
+git clone https://github.com/CelestialSolacy/react-starterplate.git
+
+npx create-react-app $REPO_NAME --template redux
+
+git rm -r ~/$REPO_NAME/src
+
+git rm -r ~/$REPO_NAME/public
+
+cp ~/react-starterplate/src ~/$REPO_NAME/
+
+cp ~/react-starterplate/public ~/$REPO_NAME/
+
+cd $REPO_NAME
+
+git rm -- *.old
+
+npm i react-router-dom
+
+```
+
 ## Linters Inclusion:
 
 #### Linter files and configurations are included in the `linters-inclusion` branch
