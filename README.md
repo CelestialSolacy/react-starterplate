@@ -19,6 +19,26 @@ To start a new React/Redux application, follow these steps:
 
 5. Copy the contents of the `src` and `public` folders of this repo into your new one.
 
+## Linters Inclusion:
+
+The linters included in the `.github` workflow follow these commands :
+
+```
+npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x @babel/preset-env@7.x  @babel/preset-react@7.x
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+
+which are all included when the user does `npm i` from the `linters-inc` branch
+
+### To automatically fix linters:
+
+ESLint :
+`npx eslint . --fix`
+
+CSS Styling:
+`npx stylelint "**/*.{css,scss}" --fix`
+
 ## React and Redux setup specifications
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
