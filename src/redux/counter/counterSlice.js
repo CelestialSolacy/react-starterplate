@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import fetchCount from './counterAPI';
+/* eslint-disable no-param-reassign */
 
 const initialState = {
   value: 0,
