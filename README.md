@@ -14,8 +14,10 @@ To start a new React/Redux application, follow these steps:
 
 3. Run `npx create-react-app REPO_NAME --template redux` in the parent folder where it was cloned.
 
-4. Run `npm i` to install starter packages, which are:
-- react-router-dom
+4. Run the `npm i` commands to install starter packages:
+```
+npm i react-router-dom
+```
 
 5. Copy the contents of the `src` and `public` folders of this repo into your new one.
 
@@ -29,7 +31,7 @@ npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
-which are all included when the user does `npm i` from the `linters-inc` branch
+(which are all included when the user does `npm i` from the `linters-inc` branch)
 
 ### To automatically fix linters:
 
@@ -38,6 +40,12 @@ ESLint :
 
 CSS Styling:
 `npx stylelint "**/*.{css,scss}" --fix`
+
+### Copy-paste fix all:
+```
+npx eslint . --fix
+npx stylelint "**/*.{css,scss}" --fix
+```
 
 ## React and Redux setup specifications
 
