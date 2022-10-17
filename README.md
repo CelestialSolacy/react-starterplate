@@ -35,6 +35,11 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 ```
 
+It also includes:
+```
+npm i prop-types
+```
+
 #### Copy the contents from the `linters` folder into you parent repository folder
 
 ### To automatically fix linters:
