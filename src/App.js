@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import { Counter } from './redux/counter/Counter';
+import Counter from './redux/counter/Counter';
 
 const routes = [
   {
