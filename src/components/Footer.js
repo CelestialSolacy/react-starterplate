@@ -13,11 +13,15 @@ function Footer() {
       </div>
       <div className="footer-body">
         <p>
-          Go to {' '}
+          Go to
+          {' '}
+          {' '}
           <a href="https://github.com/CelestialSolacy/react-starterplate">
             GitHub repository
           </a>
-          {' '} for more information and acknowledgements
+          {' '}
+          {' '}
+          for more information and acknowledgements
         </p>
       </div>
     </footer>
