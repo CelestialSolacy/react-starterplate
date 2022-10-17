@@ -28,6 +28,8 @@ npm i react-router-dom
 ```
 REPO_NAME=repo_name
 
+git clone https://github.com/CelestialSolacy/$REPO_NAME.git
+
 git clone https://github.com/CelestialSolacy/react-starterplate.git
 
 npx create-react-app $REPO_NAME --template redux
