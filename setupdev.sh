@@ -1,5 +1,5 @@
 echo "Note:"
-echo "Running this file assumes you had just ran git clone https://github.com/CelestialSolacy/react-starterplate.git !"
+echo "Running this file assumes you had just cloned your new repository !"
 
 source $PWD/react-starterplate/REPO_NAME.txt
 
@@ -17,8 +17,8 @@ cp -rv $PWD/react-starterplate/src $PWD/$REPO_NAME/
 cp -rv $PWD/react-starterplate/public $PWD/$REPO_NAME/
 
 echo "Installing dependencies..."
-cd $REPO_NAME
+cd $PWD/$REPO_NAME
 
-rm -- *.old
+git rm -- *.old
 
 npm i react-router-dom
