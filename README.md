@@ -32,17 +32,17 @@ git clone https://github.com/CelestialSolacy/react-starterplate.git
 
 npx create-react-app $REPO_NAME --template redux
 
-git rm -r ~/$REPO_NAME/src
+rm -rv $PWD/$REPO_NAME/src
 
-git rm -r ~/$REPO_NAME/public
+rm -rv $PWD/$REPO_NAME/public
 
-cp ~/react-starterplate/src ~/$REPO_NAME/
+cp $PWD/react-starterplate/src $PWD/$REPO_NAME/
 
-cp ~/react-starterplate/public ~/$REPO_NAME/
+cp $PWD/react-starterplate/public $PWD/$REPO_NAME/
 
 cd $REPO_NAME
 
-git rm -- *.old
+rm -- *.old
 
 npm i react-router-dom
 
