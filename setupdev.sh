@@ -1,8 +1,6 @@
 echo "Note:"
 echo "Running this file assumes you had just cloned your new repository !"
 
-source $PWD/react-starterplate/REPO_NAME.txt
-
 echo "Creating react/redux project in the new repository..."
 npx create-react-app $REPO_NAME --template redux
 
