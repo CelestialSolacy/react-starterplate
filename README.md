@@ -21,9 +21,23 @@ npm i react-router-dom
 
 5. Copy the contents of the `src` and `public` folders of this repo into your new one.
 
-### Auto set with git bash:
+## Auto set with git bash:
+
+### Automatic run:
+
+> Note! These commands asume you have already cloned your new repository and run the commands in its parent folder (so one step up from your new repository's folder)
+
+```
+git clone https://github.com/CelestialSolacy/react-starterplate.git
+
+sh setupdev.sh
+
+```
+
+### Semi-automatic run:
 
 > Note! Change `REPO_NAME` of the first command line to the name of your Github repository
+> This also assumes you have cloned your new repository and run these commands in the folder containing your new repository folder.
 
 ```
 REPO_NAME=repo_name
@@ -36,9 +50,9 @@ rm -rv $PWD/$REPO_NAME/src
 
 rm -rv $PWD/$REPO_NAME/public
 
-cp $PWD/react-starterplate/src $PWD/$REPO_NAME/
+cp -rv $PWD/react-starterplate/src $PWD/$REPO_NAME/
 
-cp $PWD/react-starterplate/public $PWD/$REPO_NAME/
+cp -rv $PWD/react-starterplate/public $PWD/$REPO_NAME/
 
 cd $REPO_NAME
 
