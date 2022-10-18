@@ -32,9 +32,9 @@ npm i react-router-dom
 ```
 NEW_REPO=your-repo-name
 
-sed -i "s/your-repo-name/$NEW_REPO/" $PWD/react-starterplate/REPO_NAME.txt
-
 git clone https://github.com/CelestialSolacy/react-starterplate.git
+
+sed -i "s/your-repo-name/$NEW_REPO/" $PWD/react-starterplate/REPO_NAME.txt
 
 sh $PWD/react-starterplate/setupdev.sh
 
