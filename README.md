@@ -30,7 +30,7 @@ npm i react-router-dom
 ```
 git clone https://github.com/CelestialSolacy/react-starterplate.git
 
-sh setupdev.sh
+sh $PWD/react-starterplate/setupdev.sh
 
 ```
 
