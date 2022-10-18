@@ -30,7 +30,9 @@ npm i react-router-dom
 > Important Note!!! change after the `=` in the first line, where it says `your-repo-name` to your new github's repository name
 
 ```
-REPO_NAME=your-repo-name
+NAME_REPO=your-repo-name
+
+sed -i "s/your-repo-name/$NEW_REPO/" $PWD/react-starterplate/REPO_NAME.txt
 
 git clone https://github.com/CelestialSolacy/react-starterplate.git
 
