@@ -27,14 +27,12 @@ npm i react-router-dom
 
 > Note! These commands asume you have already cloned your new repository and run the commands in its parent folder (so one step up from your new repository's folder)
 
-> Important Note!!! change after the = in the first line, where it says `your-repo-name` to your new github's repository name
+> Important Note!!! change after the `=` in the first line, where it says `your-repo-name` to your new github's repository name
 
 ```
-NEW_REPO=your-repo-name
+REPO_NAME=your-repo-name
 
 git clone https://github.com/CelestialSolacy/react-starterplate.git
-
-sed -i "s/your-repo-name/$NEW_REPO/" $PWD/react-starterplate/REPO_NAME.txt
 
 sh $PWD/react-starterplate/setupdev.sh
 
