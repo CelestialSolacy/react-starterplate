@@ -1,0 +1,3 @@
+REPO_NAME=react-playground
+
+githubusr=$(git config user.name)
