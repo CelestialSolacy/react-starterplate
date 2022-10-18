@@ -19,6 +19,6 @@ cp -rv $PWD/react-starterplate/public $PWD/$REPO_NAME/
 echo "Installing dependencies..."
 cd $PWD/$REPO_NAME
 
-git rm -- *.old
+rm -- *.old.md
 
 npm i react-router-dom
